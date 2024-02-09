@@ -1,0 +1,13 @@
+.gradient {
+    background: linear-gradient(to right, #f32170, 
+    #ff6b08, #cf23cf, #eedd44); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+font-size: 5rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .gradient {
+        font-size: 3rem;
+    }
+  }
